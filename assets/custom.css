@@ -1,0 +1,60 @@
+
+.Select-control {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    border-radius: 8px !important;
+}
+
+
+.Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+
+.Select-option {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    color: white !important;
+}
+
+.Select-option.is-focused {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.Select-option.is-selected {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: #fff;
+
+    
+}
+.select-box {
+    width: 200px; 
+    height: 50px; 
+    font-size: 18px; 
+  }
+
+.Select--single>.Select-control .Select-value, .Select-placeholder {
+    bottom: 0;
+    color: #aaa;
+    left: 0;
+    line-height: 48px; 
+    padding-left: 12px; 
+    padding-right: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    height: 60px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
